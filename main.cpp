@@ -8,7 +8,7 @@
 #include "Assignment3/assignment3.hpp"
 
 void test_assignment(std::string name, std::function<bool()> assignment){
-    bool success = assignment();
+    bool success{ assignment() };
     std::cout << name << ": " << (success ? "Success" : "Failure") << '\n';
     assert(success);
 }
