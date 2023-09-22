@@ -23,7 +23,7 @@ bool RG::Homework1::assignment2()
 
     // Muuda muutuja c väärtus u8'b'-ks
 
-    // Muuda muutuja s väärtus u8"Hello "s + u8"C++!"s-ks
+    // Muuda muutuja s väärtus enda nimeks
 
     // Muuda muutuja v väärtus {5, 4, 3, 2, 1}-ks
 
@@ -34,7 +34,7 @@ bool RG::Homework1::assignment2()
     && (i2 == 8ll)
     && (d == 5.2l)
     && (c == u8'b')
-    && (s == u8"Hello C++!"s)
+    && (s != u8"Hello World!"s)
     && (v == (std::vector{5, 4, 3, 2, 1}))
     && (a == (std::array{2, 3, 4, 5, 6}));
 }
