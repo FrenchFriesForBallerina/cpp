@@ -16,18 +16,26 @@ bool RG::Homework1::assignment2()
     std::array a{2, 3, 7, 5, 6};
 
     // Muuda muutuja i1 väärtus 4-ks
+    i1 = 4;
 
     // Muuda muutuja i2 väärtus ++i2-ks
-    
+    ++i2; 
+
     // Muuda muutuja d väärtus d + 0.7l-ks
+    d += 0.7l;
 
     // Muuda muutuja c väärtus u8'b'-ks
+    c = u8'b';
 
     // Muuda muutuja s väärtus enda nimeks
+    s = u8"frenchFriesForBallerina"s;
 
     // Muuda muutuja v väärtus {5, 4, 3, 2, 1}-ks
+    v = {5, 4, 3, 2, 1};
+    // or: reverse(v.begin(), v.end());
 
     // Muuda muutuja a.at(2) väärtus i1-ks
+    a.at(2) = i1;
 
     // Kontroll, et muutujad on õiget tüüpi ja väärtusega
     return (i1 == 4)
