@@ -34,8 +34,6 @@ bool RG::Homework1::assignment3()
     s += c;
 
     // Korruta (*=) muutuja v.at(1) väärtus v.at(2) väärtusega, mis on suurendatud ++-ga
-   
-    // std::cout << "v at 0 is " << v.at(0) << std::endl;
     v.at(1) *= ++v.at(2);
 
     // Liida muutujale a.at(2) väärtus v.at(3) väärtusega, siis korruta i1 väärtusega,
@@ -51,6 +49,5 @@ bool RG::Homework1::assignment3()
         && (c == u8'g')
         && (s == u8"Hello World!g"s)
         && (a == (std::array{2, 3, 5, 5, 6}))
-        && (v == (std::vector{1, 8, 4, 4, 5})) // something with v... 
-        ;
+        && (v == (std::vector{1, 8, 4, 4, 5}));
 }
